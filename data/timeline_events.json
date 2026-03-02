@@ -1,0 +1,182 @@
+[
+  {
+    "date": "2023-10-07",
+    "end_date": "2023-10-07",
+    "title": "Hamas Attack on Israel",
+    "description": "Hamas launches a surprise multi-front attack from Gaza into southern Israel, killing approximately 1,200 people and taking around 250 hostages.",
+    "category": "Escalation",
+    "parties": ["Hamas", "Israel"],
+    "intensity": 10,
+    "region": "Gaza"
+  },
+  {
+    "date": "2023-10-09",
+    "end_date": "2023-12-31",
+    "title": "Israel Ground Offensive in Gaza",
+    "description": "Israel declares war on Hamas and launches a massive aerial bombardment followed by a ground incursion into northern Gaza.",
+    "category": "Military Operation",
+    "parties": ["Israel", "Hamas"],
+    "intensity": 9,
+    "region": "Gaza"
+  },
+  {
+    "date": "2023-11-24",
+    "end_date": "2023-12-01",
+    "title": "Temporary Ceasefire & Hostage Exchange",
+    "description": "A week-long humanitarian pause allows the exchange of hostages and prisoners. Fighting resumes on December 1.",
+    "category": "Ceasefire",
+    "parties": ["Israel", "Hamas"],
+    "intensity": 3,
+    "region": "Gaza"
+  },
+  {
+    "date": "2024-01-12",
+    "end_date": "2024-12-31",
+    "title": "Houthis Begin Red Sea Attacks",
+    "description": "Yemen's Houthi rebels launch sustained attacks on commercial shipping in the Red Sea in solidarity with Palestinians, disrupting global trade routes.",
+    "category": "Escalation",
+    "parties": ["Houthis", "United States", "Israel"],
+    "intensity": 7,
+    "region": "Yemen"
+  },
+  {
+    "date": "2024-01-26",
+    "end_date": "2024-01-26",
+    "title": "ICJ Provisional Measures Ruling",
+    "description": "The International Court of Justice orders Israel to take measures to prevent genocide in Gaza following South Africa's case.",
+    "category": "Diplomatic",
+    "parties": ["ICJ", "Israel", "South Africa"],
+    "intensity": 3,
+    "region": "International"
+  },
+  {
+    "date": "2024-04-01",
+    "end_date": "2024-04-01",
+    "title": "Israel Strikes Iranian Consulate in Damascus",
+    "description": "Israel bombs Iran's consulate building in Damascus, Syria, killing senior IRGC commanders including General Mohammad Reza Zahedi.",
+    "category": "Escalation",
+    "parties": ["Israel", "Iran"],
+    "intensity": 8,
+    "region": "Syria"
+  },
+  {
+    "date": "2024-04-13",
+    "end_date": "2024-04-14",
+    "title": "Iran Retaliatory Drone & Missile Attack",
+    "description": "Iran launches over 300 drones and ballistic missiles at Israel in its first-ever direct attack. Most are intercepted by Israeli, US, and allied defenses.",
+    "category": "Escalation",
+    "parties": ["Iran", "Israel", "United States"],
+    "intensity": 9,
+    "region": "Iran"
+  },
+  {
+    "date": "2024-09-17",
+    "end_date": "2024-09-18",
+    "title": "Pager & Walkie-Talkie Attacks in Lebanon",
+    "description": "Covert sabotage of Hezbollah communication devices causes mass simultaneous explosions across Lebanon, killing dozens and injuring thousands.",
+    "category": "Escalation",
+    "parties": ["Israel", "Hezbollah"],
+    "intensity": 8,
+    "region": "Lebanon"
+  },
+  {
+    "date": "2024-09-27",
+    "end_date": "2024-09-27",
+    "title": "Assassination of Hezbollah Leader Nasrallah",
+    "description": "Israel kills Hezbollah Secretary-General Hassan Nasrallah in a massive airstrike on Beirut's southern suburbs.",
+    "category": "Escalation",
+    "parties": ["Israel", "Hezbollah"],
+    "intensity": 9,
+    "region": "Lebanon"
+  },
+  {
+    "date": "2024-10-01",
+    "end_date": "2024-11-26",
+    "title": "Israel Ground Invasion of Lebanon",
+    "description": "Israel launches ground operations in southern Lebanon targeting Hezbollah positions, infrastructure, and tunnel networks.",
+    "category": "Military Operation",
+    "parties": ["Israel", "Hezbollah"],
+    "intensity": 8,
+    "region": "Lebanon"
+  },
+  {
+    "date": "2024-11-27",
+    "end_date": "2025-01-18",
+    "title": "Israel-Hezbollah Ceasefire",
+    "description": "A ceasefire agreement between Israel and Hezbollah takes effect, ending two months of ground fighting in southern Lebanon.",
+    "category": "Ceasefire",
+    "parties": ["Israel", "Hezbollah"],
+    "intensity": 2,
+    "region": "Lebanon"
+  },
+  {
+    "date": "2025-01-19",
+    "end_date": "2025-03-17",
+    "title": "Gaza Ceasefire Agreement",
+    "description": "Israel and Hamas reach a ceasefire deal. Hamas begins releasing hostages in exchange for Palestinian prisoners. The ceasefire holds for nearly two months.",
+    "category": "Ceasefire",
+    "parties": ["Israel", "Hamas"],
+    "intensity": 2,
+    "region": "Gaza"
+  },
+  {
+    "date": "2025-03-18",
+    "end_date": "2025-05-31",
+    "title": "Ceasefire Collapses — Israel Resumes Strikes",
+    "description": "Israel launches surprise airstrikes on Gaza after accusing Hamas of refusing to release more hostages. Netanyahu vows to 'open the gates of hell.'",
+    "category": "Escalation",
+    "parties": ["Israel", "Hamas"],
+    "intensity": 8,
+    "region": "Gaza"
+  },
+  {
+    "date": "2025-03-15",
+    "end_date": "2025-05-01",
+    "title": "US Strikes on Yemen (Houthis)",
+    "description": "The United States launches sustained airstrikes against Houthi targets in Yemen. April sees 279 US airstrike events — the highest monthly count since 2017. A US-Houthi ceasefire follows in May.",
+    "category": "Military Operation",
+    "parties": ["United States", "Houthis"],
+    "intensity": 7,
+    "region": "Yemen"
+  },
+  {
+    "date": "2025-06-13",
+    "end_date": "2025-06-25",
+    "title": "Israel-Iran 12-Day War",
+    "description": "After IAEA declares Iran in violation of non-proliferation obligations, Israel launches unilateral strikes on Iranian nuclear facilities. A 12-day war erupts with strikes across 27 Iranian provinces. Iran retaliates with missiles at US bases in Qatar.",
+    "category": "Escalation",
+    "parties": ["Israel", "Iran", "United States"],
+    "intensity": 10,
+    "region": "Iran"
+  },
+  {
+    "date": "2025-09-09",
+    "end_date": "2025-09-09",
+    "title": "Israel Bombs Hamas HQ in Qatar",
+    "description": "Israel strikes the Hamas political headquarters in Doha, Qatar, targeting senior leaders including Khalil al-Hayya and Khaled Mashal.",
+    "category": "Escalation",
+    "parties": ["Israel", "Hamas", "Qatar"],
+    "intensity": 8,
+    "region": "Qatar"
+  },
+  {
+    "date": "2025-10-10",
+    "end_date": "2026-01-31",
+    "title": "New Ceasefire & Hostage Deal",
+    "description": "A comprehensive ceasefire takes effect under Trump's 20-point plan. Hamas releases all living Israeli hostages in exchange for 250+ Palestinian prisoners serving life sentences.",
+    "category": "Ceasefire",
+    "parties": ["Israel", "Hamas", "United States"],
+    "intensity": 2,
+    "region": "Gaza"
+  },
+  {
+    "date": "2026-02-28",
+    "end_date": "2026-03-02",
+    "title": "Operation 'Epic Fury' — US/Israel Strike Iran",
+    "description": "The US and Israel launch a massive joint offensive against Iran targeting nuclear and military infrastructure. Ayatollah Khamenei is killed in the opening salvo. Iran retaliates with missiles against US bases, killing three American servicemen.",
+    "category": "Military Operation",
+    "parties": ["United States", "Israel", "Iran"],
+    "intensity": 10,
+    "region": "Iran"
+  }
+]

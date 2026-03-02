@@ -1,0 +1,121 @@
+/* Middle East Conflict Dashboard — Custom Dark Theme */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #1a1a2e !important;
+}
+
+/* Header gradient title */
+h1.dashboard-title {
+    background: linear-gradient(135deg, #e74c3c, #e67e22, #f39c12);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.dashboard-subtitle {
+    color: #7f8c8d !important;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+}
+
+/* Card styling */
+.card {
+    background-color: #16213e !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 12px !important;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+}
+
+.card-header {
+    background-color: rgba(255, 255, 255, 0.03) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 12px 12px 0 0 !important;
+}
+
+/* News article cards (nested cards inside the feed) */
+.news-card {
+    background-color: rgba(255, 255, 255, 0.04) !important;
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+    border-radius: 8px !important;
+    transition: background-color 0.2s ease;
+}
+
+.news-card:hover {
+    background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Links in the news feed */
+a.news-link {
+    color: #5dade2 !important;
+    text-decoration: none !important;
+    font-weight: 600;
+}
+
+a.news-link:hover {
+    color: #85c1e9 !important;
+    text-decoration: underline !important;
+}
+
+/* Scrollbar styling for news feed */
+.news-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+.news-scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.news-scroll::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 3px;
+}
+
+.news-scroll::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Badge refinements */
+.badge {
+    font-weight: 500 !important;
+    letter-spacing: 0.5px;
+}
+
+/* Plotly chart containers — remove extra background */
+.js-plotly-plot .plotly .main-svg {
+    border-radius: 8px;
+}
+
+/* Pulse animation for the auto-updating badge */
+@keyframes pulse-green {
+    0% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.5); }
+    70% { box-shadow: 0 0 0 8px rgba(46, 204, 113, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0); }
+}
+
+.badge-pulse {
+    animation: pulse-green 2s infinite;
+}
+
+/* Footer */
+.footer-text {
+    color: #5d6d7e !important;
+    font-size: 0.8rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    h1.dashboard-title {
+        font-size: 1.5rem;
+    }
+    .card-body {
+        padding: 0.75rem !important;
+    }
+}
